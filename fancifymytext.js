@@ -1,3 +1,5 @@
+window.onload=function(){
+ 
 const btn = document.getElementById('biggerB');
 const textArea = document.getElementById('textArea');
 
@@ -37,3 +39,4 @@ moo.addEventListener('click', function() {
     }
     textArea.value = sentences.join(" ");
 });
+};
